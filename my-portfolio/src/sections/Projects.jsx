@@ -7,7 +7,7 @@ const projects = [
     description:
       "A full-stack MERN application that allows users to browse restaurants, add food items to cart, place orders, and make secure online payments. It includes user authentication, admin dashboard, order tracking, and Stripe payment integration.",
     tech: ["React", "Node.js", "MongoDB", "Express"],
-    link: "#",
+    link: "http://localhost:5174/",
   },
   {
     title: "Weather Forecast App",
@@ -28,14 +28,16 @@ const projects = [
     description:
       "Mind Care is a mental wellness platform designed to help users manage stress, anxiety, and emotional well-being. It includes guided meditation resources, mood tracking, daily motivational content, and mental health awareness tools — creating a calm, supportive digital environment.",
     tech: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-    link: "#",
+    link: "https://mind-care-sigma.vercel.app",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="min-h-screen bg-[#050816] text-white py-20 px-6 relative overflow-hidden">
-      
+    <section
+      id="projects"
+      className="min-h-screen bg-[#050816] text-white py-20 px-6 relative overflow-hidden"
+    >
       {/* Section Title */}
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
@@ -44,7 +46,7 @@ export default function Projects() {
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-bold text-center mb-16"
       >
-        <span className="text-teal-400"> My Projects</span>
+        <span className="text-teal-400">My Projects</span>
       </motion.h2>
 
       {/* Projects Grid */}
@@ -87,6 +89,8 @@ export default function Projects() {
             {/* Button */}
             <a
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-6 py-2 rounded-full text-sm font-semibold
                         bg-gradient-to-r from-teal-400 to-emerald-500
                         hover:from-teal-300 hover:to-emerald-400

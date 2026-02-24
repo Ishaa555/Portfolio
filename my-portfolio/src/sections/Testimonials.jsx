@@ -7,28 +7,28 @@ import w2 from "../assets/w2.png"
 const testimonials = [
   {
     name: "Yash Sahu",
-    role: "Software Engineer at HCL Technologies",
+    role: "Software Engineer ",
     review:
       "Inderaneela is a visionary developer. His attention to detail and creativity blew us away. Our project was a massive success because of him.",
     image: m1,
   },
   {
     name: "Heather Forster",
-    role: "UI/UX Designer at PixelWorks",
+    role: "UI/UX Designer ",
     review:
       "Working with Inderaneela was an absolute pleasure. He brings design and code together like magic. Highly recommend him!",
     image: w1,
   },
   {
     name: "Amy Jacobsan",
-    role: "Tech Manager at CodeEmpire",
+    role: "Tech Manager ",
     review:
       "From concept to execution, Inderaneela handled everything flawlessly. His work ethic and innovation are unmatched.",
     image: m2,
   },
   {
     name: "Carry Smith",
-    role: "CTO at Innovate Labs",
+    role: "CTO ",
     review:
       "Inderaneela transformed our outdated platform into something modern and powerful. His skills are world-class.",
     image: w2,
